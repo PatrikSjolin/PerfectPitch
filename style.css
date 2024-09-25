@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f4f8;
+}
+
+.container {
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.slider {
+    width: 100%;
+    margin: 20px 0;
+}
+
+.note-buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.note-buttons button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#feedback, #success-rate {
+    margin-top: 20px;
+    color: #333;
+    font-weight: bold;
+}
+
+#startButton, #playAgainButton {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+#startButton:hover, #playAgainButton:hover {
+    background-color: #218838;
+}
