@@ -60,7 +60,7 @@ function playTone(frequency) {
     oscillator.frequency.setValueAtTime(frequency, context.currentTime);
     oscillator.connect(context.destination);
     oscillator.start();
-    oscillator.stop(context.currentTime + 2); // Play for 2 seconds
+    oscillator.stop(context.currentTime + 1); // Play for 2 seconds
 }
 
 // Function to handle the user's guess
